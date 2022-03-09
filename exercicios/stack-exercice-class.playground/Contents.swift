@@ -4,15 +4,15 @@ class Stack {
     fileprivate var array: [Any] = []
     
     func push(_ element: Any) {
-        array.append(element)
+        self.array.append(element)
     }
     
     func pop() {
-        array.popLast()
+        self.array.popLast()
     }
     
     func peek() -> Any {
-        return array.last ?? "This stack is empty =("
+        return self.array.last ?? "This stack is empty =("
     }
 }
 
