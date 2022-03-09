@@ -1,9 +1,9 @@
 import UIKit
 
-class Stack {
-    fileprivate var array: [Any] = []
+class Stack<T> {
+    fileprivate var array: [T] = []
     
-    func push(_ element: Any) {
+    func push(_ element: T) {
         self.array.append(element)
     }
     
@@ -11,13 +11,13 @@ class Stack {
         self.array.popLast()
     }
     
-    func peek() -> Any {
-        return self.array.last ?? "This stack is empty =("
+    func peek() -> T {
+        return self.array.last ?? "This stack is empty =(" as! T
     }
 }
 
 
-var myStackOfBooks = Stack()
+var myStackOfBooks = Stack<String>()
 
 print(myStackOfBooks.peek())
 
