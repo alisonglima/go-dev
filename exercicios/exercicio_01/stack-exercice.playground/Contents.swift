@@ -8,7 +8,7 @@ class Stack<T> {
     }
     
     func pop() {
-        self.array.popLast()
+        array.popLast()
     }
     
     func peek() -> T {
