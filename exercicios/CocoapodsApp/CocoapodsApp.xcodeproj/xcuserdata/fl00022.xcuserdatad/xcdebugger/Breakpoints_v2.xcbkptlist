@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A80A19F7-D583-4640-ABB3-2CE2E2CC21A6"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F944868-9793-422D-8AE5-808CA2D22805"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Scenes/Home/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "HomeViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "4F944868-9793-422D-8AE5-808CA2D22805 - 63447170f771658d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CocoapodsApp.HomeViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; CocoapodsApp.HomeViewController"
+                  moduleName = "CocoapodsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fl00022/Documents/study/courses/go!dev/exercicios/CocoapodsApp/Scenes/Home/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  uuid = "4F944868-9793-422D-8AE5-808CA2D22805 - c7413ed7c0da7f55"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CocoapodsApp.HomeViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; CocoapodsApp.HomeViewController"
+                  moduleName = "CocoapodsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fl00022/Documents/study/courses/go!dev/exercicios/CocoapodsApp/Scenes/Home/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "127">
+               </Location>
+               <Location
+                  uuid = "4F944868-9793-422D-8AE5-808CA2D22805 - 769ee3737d6fc1fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CocoapodsApp.HomeViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CocoapodsApp.HomeViewController&gt;"
+                  moduleName = "CocoapodsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fl00022/Documents/study/courses/go!dev/exercicios/CocoapodsApp/Scenes/Home/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "4F944868-9793-422D-8AE5-808CA2D22805 - bead09f2a6624c6e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CocoapodsApp.HomeViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CocoapodsApp.HomeViewController&gt;"
+                  moduleName = "CocoapodsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fl00022/Documents/study/courses/go!dev/exercicios/CocoapodsApp/Scenes/Home/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "4F944868-9793-422D-8AE5-808CA2D22805 - 3a14b53dc0f5442"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CocoapodsApp.HomeViewController.__deallocating_deinit"
+                  moduleName = "CocoapodsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fl00022/Documents/study/courses/go!dev/exercicios/CocoapodsApp/Scenes/Home/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
