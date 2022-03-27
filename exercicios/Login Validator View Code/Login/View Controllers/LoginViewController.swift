@@ -19,6 +19,7 @@ class LoginViewController: UIViewController {
         user.textContentType = .emailAddress
         user.backgroundColor = .systemGray6
         user.layer.borderWidth = 1
+        user.autocapitalizationType = .none
         user.translatesAutoresizingMaskIntoConstraints = false
         return user
     }()
