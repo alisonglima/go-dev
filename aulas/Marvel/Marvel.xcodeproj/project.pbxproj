@@ -21,6 +21,8 @@
 		9F6C0ED127F52885008B49BB /* HeroListServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C0ED027F52885008B49BB /* HeroListServiceProtocol.swift */; };
 		9F6C0ED427F529BA008B49BB /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C0ED327F529BA008B49BB /* Hero.swift */; };
 		9F6C0ED827F52A87008B49BB /* HeroListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C0ED727F52A87008B49BB /* HeroListService.swift */; };
+		9F6C0EE227F65B6C008B49BB /* HeroViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C0EE127F65B6C008B49BB /* HeroViewModelDelegate.swift */; };
+		9F6C0EE427F65C42008B49BB /* HeroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C0EE327F65C42008B49BB /* HeroViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		9F6C0ED027F52885008B49BB /* HeroListServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListServiceProtocol.swift; sourceTree = "<group>"; };
 		9F6C0ED327F529BA008B49BB /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
 		9F6C0ED727F52A87008B49BB /* HeroListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListService.swift; sourceTree = "<group>"; };
+		9F6C0EE127F65B6C008B49BB /* HeroViewModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewModelDelegate.swift; sourceTree = "<group>"; };
+		9F6C0EE327F65C42008B49BB /* HeroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 		9F6C0EAA27F51E02008B49BB /* Marvel */ = {
 			isa = PBXGroup;
 			children = (
+				9F6C0EE027F65B3F008B49BB /* ViewModels */,
 				9F6C0ED927F52DA2008B49BB /* Scenes */,
 				9F6C0ED227F529B1008B49BB /* Models */,
 				9F6C0ECB27F52397008B49BB /* Application */,
@@ -145,6 +150,15 @@
 				9F6C0EAF27F51E02008B49BB /* ViewController.swift */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		9F6C0EE027F65B3F008B49BB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9F6C0EE127F65B6C008B49BB /* HeroViewModelDelegate.swift */,
+				9F6C0EE327F65C42008B49BB /* HeroViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,9 +235,11 @@
 				9F6C0EAC27F51E02008B49BB /* AppDelegate.swift in Sources */,
 				9F6C0ECD27F523B8008B49BB /* Environment.swift in Sources */,
 				9F6C0EC827F5216A008B49BB /* HTTPMethod.swift in Sources */,
+				9F6C0EE227F65B6C008B49BB /* HeroViewModelDelegate.swift in Sources */,
 				9F6C0EAE27F51E02008B49BB /* SceneDelegate.swift in Sources */,
 				9F6C0ECF27F5265C008B49BB /* MD5.swift in Sources */,
 				9F6C0ED427F529BA008B49BB /* Hero.swift in Sources */,
+				9F6C0EE427F65C42008B49BB /* HeroViewModel.swift in Sources */,
 				9F6C0EC627F520F6008B49BB /* URLRequestProtocol.swift in Sources */,
 				9F6C0ED127F52885008B49BB /* HeroListServiceProtocol.swift in Sources */,
 				9F6C0EC127F51F4E008B49BB /* Constants.swift in Sources */,
