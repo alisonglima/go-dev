@@ -6,12 +6,12 @@
   go!dev by idwall
 </h4>
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/alisonglima/go-dev.svg">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/alisonglima/go-dev">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/alisonglima/go-dev.svg">
   
   <a href="https://github.com/alisonglima/go-dev/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/alisonglima/go-dev.svg">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/alisonglima/go-dev">
   </a>
 
   <a href="https://github.com/alisonglima/go-dev/issues">
