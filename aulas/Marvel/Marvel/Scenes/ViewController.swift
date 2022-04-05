@@ -24,6 +24,7 @@ class ViewController: UIViewController {
             print("normal")
             // Remove o loading
             // Atualiza a tabela
+            print(viewModel?.hero?.data.results[0])
         case .error:
             print("error")
             // Remove o loading
@@ -34,13 +35,24 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .red
+        configureUI()
+        delegates()
+        initialState()
         
         viewModel?.delegate = self
-        
-        state = .loading
-        
         fetchHero()
+    }
+    
+    private func delegates() {
+        viewModel?.delegate = self
+    }
+    
+    private func initialState()  {
+        state = .loading
+    }
+    
+    private func configureUI() {
+        view.backgroundColor = .red
     }
     
     private func fetchHero() {
